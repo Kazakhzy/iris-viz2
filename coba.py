@@ -1,5 +1,5 @@
-# python -m venv env --> bikin environment
-# env\Scripts\activate --> aktivasi environment di Windows atau 
+# python -m venv .venv --> bikin environment
+# .venv\Scripts\activate --> aktivasi environment di Windows atau 
 # source env/bin/activate -> untuk linux / Mac
 # pip install streamlit --> install streamlit
 # streamlit run namafile.py --> running
@@ -13,7 +13,7 @@ st.set_page_config(
 		layout = 'wide',
 	)
 
-st.title('Iris Data Analysis')
+st.title('Iris Data Analysis By Ihsan')
 
 with st.sidebar:
 	st.markdown('**Pilih Species**')
