@@ -16,6 +16,7 @@ st.set_page_config(
 st.title('Iris Data Analysis By Ihsan')
 
 with st.sidebar:
+	st.header('Filter Data')
 	st.markdown('**Pilih Species**')
 	check_setosa = st.checkbox('Iris-setosa', value=True)
 	check_versicolor = st.checkbox('Iris-versicolor', value=True)
